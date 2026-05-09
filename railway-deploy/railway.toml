@@ -1,5 +1,6 @@
 [build]
 builder = "nixpacks"
+watchPatterns = ["railway-deploy/**"]
 
 [deploy]
 startCommand = "node server.mjs"
