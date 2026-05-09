@@ -1,0 +1,22 @@
+{
+  "name": "jarvis-ai-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Jarvis AI Assistant API Server",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@google/genai": "^1.44.0",
+    "cors": "^2.8.5",
+    "drizzle-orm": "^0.38.3",
+    "express": "^5.1.0",
+    "pino": "^9.7.0",
+    "pino-http": "^10.5.0",
+    "postgres": "^3.4.7"
+  }
+}
